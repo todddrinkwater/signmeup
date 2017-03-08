@@ -1,3 +1,7 @@
+# signmeup
+A sign up application designed to create less paperwork and organisation for teachers organising group activities.
+
+
 # Boilerplate: Knex.js
 
 Phase 1 boilerplate project with:
