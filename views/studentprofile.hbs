@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Me Up! - {{name}}</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>{{firstName}} {{lastName}}</h1>
+      <h4>{{id}}</h4>
+    </header>
+
+    <div="studentphoto">
+      //Student photo goes here.
+    </div>
+    <div class="studentinfo">
+    <h4>Details:</h4>
+      <ul>
+        <li>Address: {{address}}</li>
+        <li>Phone: {{phoneNumber}}</li>
+        <li>email: {{email}}</li>
+      </ul>
+    </div>
+    <div class="studentSignUps">
+      //list of students activities they have signed up for
+      {{#each activities}}
+        <li>{{activityName}}</li>
+      {{/each}}
+    </div>
+
+  </body>
+</html>
