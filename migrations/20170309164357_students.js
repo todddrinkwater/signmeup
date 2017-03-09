@@ -5,9 +5,10 @@ exports.up = function (knex, Promise) {
     table.string('lastName')
     table.string('email')
     table.integer('phoneNumber')
+    table.integer('activityID')
   })
 }
 
 exports.down = function (knex, Promise) {
-  return knex.schema.dropTable('users')
+  return knex.schema.dropTable('students')
 }
