@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Sign Me Up! - {{yearLevel}}</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>{{firstName}} {{lastName}}</h1>
+    </header>
+
+    <div class="list">
+      //list of students and activities they have signed up for
+      {{#each students}}
+        <li>{{firstName}} {{lastName}}</li>
+      {{/each}}
+    </div>
+
+  </body>
+</html>

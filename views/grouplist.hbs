@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Me Up! - {{groupName}}</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>{{groupName}}</h1>
+      <h3>Teacher in charge: {{teacherName}}</h3>
+    </header>
+
+    <div class="groupMembers">
+    <h4>Group Members:</h4>
+      <ul>
+        {{#each students}}
+          <li>{{firstName}} {{lastName}} {{yearLevel}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+  </body>
+</html>
