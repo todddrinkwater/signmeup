@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Me Up! - Student Login</title>
+  </head>
+  <body>
+    <div id="logo">
+      <h1>Sign Me Up!</h1>
+    </div>
+    <div class="login">
+      <form class="" action="#" method="post">
+        <select>
+          {{#each organisation}}
+            <option value="organisation">{{organisationName}}</option>
+          {{/each}}
+        </select>
+
+        ID: <input type="text" name="id" />
+        Password: <input type="text" name="password" />
+      </form>
+    </div>
+  </body>
+</html>
