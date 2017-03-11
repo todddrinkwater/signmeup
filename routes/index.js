@@ -19,6 +19,6 @@ module.exports = {
 // }
 
 function displayHome (req, res) {
-  var testData = {organisationName: "Fraser High School"}
+  var testData = {organisationName: "St Mary's School"}
   res.render('studentlogin', testData)
 }

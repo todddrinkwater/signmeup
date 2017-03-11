@@ -1,3 +1,30 @@
 body {
-  background-color: red;
+  background-color: #2096c7;
+  font-family: 'Dosis', sans-serif;
+}
+
+#logo {
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+  font-size: 2em;
+}
+
+/*  - - -    Input Fields & Login  - - - */
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login {
+  display: flex;
+  list-style-type: none;
+}
+
+.login li {
+  list-style-type: none;
 }
