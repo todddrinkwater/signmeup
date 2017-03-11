@@ -7,6 +7,12 @@ body {
   font-family: 'Gochi Hand', cursive;
   color: white;
   font-size: 2em;
+  margin: 5% 0 0 0;
+  padding: 0;
+}
+
+#logo h1 {
+  margin-bottom: 0;
 }
 
 /*  - - -    Input Fields & Login  - - - */
@@ -25,10 +31,15 @@ input[type=submit]{
   background-color: #54c79e;
   color: white;
   padding: 14px 20px;
-  margin: 5px auto;
+  margin: 50px auto;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+select {
+  margin: 5% 0 5% 0;
+  padding: 5% 0 5% 0;
 }
 
 .login {
