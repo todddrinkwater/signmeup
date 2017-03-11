@@ -19,6 +19,6 @@ module.exports = {
 // }
 
 function displayHome (req, res) {
-  var testData = {organisationName: "St Mary's School"}
+  var testData = {organisationName: "St Mary's College"}
   res.render('studentlogin', testData)
 }
